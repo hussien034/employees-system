@@ -1,0 +1,41 @@
+  <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <section id="left-side">
+                    <div class="the-main-head">
+                        <h1>Employment system</h1>
+                    </div>
+                    <br>
+                    <div class="the-mian-content">
+                        <div class="the-first d-flex ">
+                            <div class="h-icon-1">
+                                <i class="fas fa-home mx-2"></i>
+                            </div>
+                            <div class="desc1">
+                                <a href="#">HOME</a>
+                            </div>
+                        </div>
+                        <div class="the-second d-flex ">
+                            <div class="h-icon-2">
+                                <i class="fas fa-stream  mx-2"></i>
+                            </div>
+                            <div class="desc2">
+                                <a href="index2.html">Eployee Data</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <section id="right-side">
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-12">
+
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>

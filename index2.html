@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>New CRUD system</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="discription" content="crud system" />
+    <meta name="keywords" content="CRUD" />
+    <meta name="author" content="bassem hussien ismail" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Teko&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <div class="container-fluid mt-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8">
+                    <input onkeyup="search(this.value)" type="search" class="form-control my-4" placeholder="Search By Name"  >
+                    <table class="table">
+                        <thead>
+                            <th>Number</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Salery</th>
+                            <th>Gender</th>
+                            <th>Designation</th>
+                            <th>City</th>
+                            <th>Delete</th>
+                        </thead>
+                        <tbody id="trs">
+                            
+                        </tbody>
+                    </table>
+                    <a href="index.html"><button class="btn btn-success">Go To Dashboard</button></a>
+                </div>
+            </div>
+            
+       </div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

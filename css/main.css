@@ -1,0 +1,179 @@
+body{
+    background-color: #B2DFDB !important;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size:18px;
+}
+h1{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+.ramadanLantern {
+    width: 200px;
+    margin: auto;
+  }
+  [id^="circle"] {
+    animation: rotate 15s linear infinite;
+    transition: all 0.3s ease;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  #circle4 {
+    animation: rotate 60s linear infinite;
+  }
+  #circlegreen1 {
+    animation: rotate 40s linear reverse infinite;
+  }
+  #lantern2 {
+    animation: swing 5s ease-in-out infinite alternate;
+    transition: all 0.3s ease;
+    transform-origin: top;
+    transform-box: fill-box;
+  }
+  
+  @keyframes swing {
+    00% {
+      transform: rotate(-10deg);
+    }
+  
+    100% {
+      transform: rotate(10deg);
+    }
+  }
+  
+  #lantern1 {
+    animation: swing 3s ease-in-out infinite alternate;
+    transition: all 0.3s ease;
+    transform-origin: top;
+    transform-box: fill-box;
+  }
+  
+  @keyframes swing {
+    00% {
+      transform: rotate(10deg);
+    }
+  
+    100% {
+      transform: rotate(-10deg);
+    }
+  }
+  .st0 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: url(#SVGID_1_);
+  }
+  
+  .st1 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #ffffff;
+  }
+  
+  .st2 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #eef2f5;
+  }
+  
+  .st3 {
+    fill: #9ccc54;
+  }
+  
+  .st4 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: url(#SVGID_2_);
+  }
+  
+  .st5 {
+    fill: #d9967f;
+  }
+  
+  .st6 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: url(#SVGID_3_);
+  }
+  
+  .st7 {
+    fill: #0072c5;
+  }
+  
+  .st8 {
+    fill: #484746;
+  }
+  
+  .st9 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: url(#SVGID_4_);
+  }
+  
+  .st10 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: url(#SVGID_5_);
+  }
+  
+#left-side{
+    background-color: #0F1F5F;
+    height:100vh;
+    width:20%;
+    color: white;
+    position: fixed;
+    left: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: all ;
+}
+.the-main-head h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.the-main-head{
+    background-color: #04163C !important;
+    height:10%;
+}
+/*-------the end of the left-side---------*/
+header .container-fluid{
+    background-color: #F5EEDC;
+    height:10%;
+    width:100%;
+}
+#main-content1{
+    width:100%;
+    position: fixed;
+    left:25%;
+    top: 10%;
+}
+.b1{
+    height: 1px;
+    border:1px solid black;
+    width:100%;
+}
+.btn-1{
+    color: black;
+    padding:5px 15px;
+    border: 1px solid #FFC600;
+    background-color: #FFC600;
+    margin-right:5px;
+    transition: all 0.3s;
+    font-size:15px;
+}
+.btn-1:hover{
+    background-color:  #3087df;
+}
+.btn-2{
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding:5px 15px;
+    font-size:15px;
+}
