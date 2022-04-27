@@ -57,9 +57,11 @@ function clearData(){
 }
 
 function displayData(){
-    var cartona='';
-    for(var i=0;i<theEmployes.length;i++){
-        cartona+=` <tr>
+   var cartona='';
+    for(var i=0; i<theEmployes.length;i++)
+    {
+        cartona+=`
+        <tr>
         <td>${i+1}</td>
         <td>${theEmployes[i].name}</td>
         <td>${theEmployes[i].email}</td>
@@ -68,9 +70,10 @@ function displayData(){
         <td>${theEmployes[i].dsignation}</td>
         <td>${theEmployes[i].city}</td>
         <td><button class="btn btn-danger" onclick="deleteData(${i})">Delete</button></td>
-        </tr>`
+        </tr>
+        `
     }
-    document.getElementById("tableBody").innerHTML=cartona;
+    document.getElementById("trs").innerHTML=cartona;
 }
 function search(val){
    var cartona='';
